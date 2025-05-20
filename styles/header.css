@@ -5,6 +5,7 @@
     width: 100%;
     box-shadow: 0 2px 8px 0 rgba(0,0,0,0.10);
     border-bottom: 2px solid var(--accent);
+    margin-bottom: 1rem;
 }
 .appbar-container {
     max-width: 1280px;
@@ -69,8 +70,8 @@
     z-index: 10;
     box-shadow: 0 4px 16px 0 rgba(0,0,0,0.10);
 }
-.appbar-mobile-menu:not(.hidden) {
-    display: block;
+.hidden {
+    display: none !important;
 }
 .appbar-mobile {
     display: flex;
@@ -97,9 +98,6 @@
     }
     .appbar-mobile-menu {
         display: none;
-    }
-    .appbar-mobile-menu:not(.hidden) {
-        display: block;
     }
     .appbar-mobile-links {
         display: flex;

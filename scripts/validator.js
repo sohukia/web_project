@@ -1,10 +1,5 @@
 // get data from url
 const urlParams = new URLSearchParams(window.location.search);
-const username = urlParams.get('name');
-const surname = urlParams.get('surname');
-const email = urlParams.get('email');
-const birthdate = urlParams.get('birthdate');
-const mystatus = urlParams.get('status');
 
 const firstAnswer = urlParams.get('question1');
 const secondAnswer = urlParams.getAll('question2');
@@ -13,12 +8,6 @@ const fourthAnswer = urlParams.get('question4');
 const fifthAnswer = urlParams.get('question5');
 
 const comments = urlParams.get('comments');
-
-document.getElementById('name').innerHTML = username;
-document.getElementById('surname').innerHTML = surname;
-document.getElementById('email').innerHTML = email;
-document.getElementById('birthdate').innerHTML = birthdate;
-document.getElementById('status').innerHTML = mystatus;
 
 var score = 0;
 

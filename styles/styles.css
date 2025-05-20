@@ -17,6 +17,8 @@
     --border: #A9A9A9;
     --border-alt: #D6BFAF;
     --white: #ffffff;
+    --correct: #4CAF50;
+    --incorrect: #F44336;
 }
 
 body {
@@ -141,10 +143,10 @@ button:hover, button:focus {
 
 /* Quiz result */
 .correct {
-    color: var(--accent);
+    color: var(--correct);
 }
 .incorrect {
-    color: #af4c4c;
+    color: var(--incorrect);
 }
 
 /* Ranking Tiles */
@@ -153,6 +155,8 @@ button:hover, button:focus {
     flex-direction: column;
     gap: 1rem;
     align-items: center;
+    width: 100%;
+    padding: 0 0.5rem;
 }
 
 .tile-link {
@@ -165,9 +169,11 @@ button:hover, button:focus {
     box-shadow: 0 1px 2px 0 rgba(0,0,0,0.05);
     transition: background 0.2s, border-color 0.2s;
     max-width: 36rem;
+    width: 100%;
     text-decoration: none;
     margin-bottom: 1rem;
     color: var(--text-main);
+    overflow: hidden;
 }
 .tile-link:hover {
     background: var(--gray-bg);
@@ -177,6 +183,7 @@ button:hover, button:focus {
     .tile-link {
         flex-direction: row;
         max-width: 36rem;
+        width: 100%;
     }
 }
 
@@ -185,7 +192,7 @@ button:hover, button:focus {
     width: 100%;
     border-top-left-radius: 0.5rem;
     border-top-right-radius: 0.5rem;
-    height: 24rem;
+    height: 12rem;
 }
 @media (min-width: 768px) {
     .tile-img {
@@ -194,6 +201,7 @@ button:hover, button:focus {
         border-radius: 0;
         border-top-left-radius: 0.5rem;
         border-bottom-left-radius: 0.5rem;
+        border-top-right-radius: 0;
     }
 }
 
@@ -203,14 +211,34 @@ button:hover, button:focus {
     justify-content: space-between;
     padding: 1rem;
     line-height: 1.5;
+    width: 100%;
+}
+
+.tile-viewmore {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: var(--accent);
+    color: var(--white);
+    padding: 0.5rem 1rem;
+    border-radius: 0.5rem;
+    font-size: 1rem;
+    font-weight: bold;
+    text-decoration: none;
+    transition: background 0.2s, color 0.2s;
 }
 
 .tile-title {
     margin-bottom: 0.5rem;
-    font-size: 2rem;
+    font-size: 1.3rem;
     font-weight: bold;
     letter-spacing: 0.025em;
     color: var(--accent);
+}
+@media (min-width: 640px) {
+    .tile-title {
+        font-size: 2rem;
+    }
 }
 
 .tile-desc {
@@ -218,6 +246,17 @@ button:hover, button:focus {
     font-size: 1rem;
     color: var(--text-main);
     font-weight: normal;
+}
+@media (max-width: 480px) {
+    .tile-content {
+        padding: 0.75rem;
+    }
+    .tile-title {
+        font-size: 1.1rem;
+    }
+    .tile-desc {
+        font-size: 0.95rem;
+    }
 }
 
 /* Home Hero Section */
@@ -274,11 +313,23 @@ button:hover, button:focus {
     }
 }
 .home-get-started {
+    text-decoration: none;
+    cursor: pointer;
     margin-top: 2.5rem;
     display: flex;
+    flex-direction: column;
     align-items: center;
     justify-content: center;
-    gap: 1.5rem;
+}
+.home-get-started-btn {
+    background-color: var(--button-bg);
+    color: var(--text-main-dark);
+    border: none;
+    padding: 5px 20px;
+    font-size: 1.125rem;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.2s;
 }
 
 /* Responsive Design */
