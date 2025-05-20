@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Green IT - Quiz</title>
+    <script src="scripts/headerFooterLoader.js"></script>
+    <script src="scripts/startQuiz.js"></script>
+    <link rel="stylesheet" href="styles/styles.css">
+    <link rel="stylesheet" href="styles/footer.css">
+    <link rel="stylesheet" href="styles/header.css">
+
+</head>
+
+<body>
+<header id="header"></header>
+<main>
+    <h1>Quiz on rocks</h1>
+    <p>Test your knowledge about rocks!</p>
+    <section>
+        <form action="#" method="get" onsubmit="return false;">
+            <fieldset>
+                <legend>Quiz - Rocks</legend>
+                <div class="select-field">
+                    <p>1. What makes a good Rock?</p>
+                    <label><input type="radio" name="question1" value="a"> A) A combination of its hardness and color</label><br> <!--  -->
+                    <label><input type="radio" name="question1" value="b"> B) A combination of its shape and taste</label><br>
+                    <label><input type="radio" name="question1" value="c"> C) Its WWE track record</label><br>
+                </div>
+                <div class="select-field">
+                    <p>2. What is the main goal of rocks?</p>
+                    <label><input type="checkbox" name="question2" value="a"> A) Build things</label><br> <!--  -->
+                    <label><input type="checkbox" name="question2" value="b"> B) Be pretty</label><br> <!--  -->
+                    <label><input type="checkbox" name="question2" value="c"> C) Be hard</label><br> <!--  -->
+                </div>
+                <div class = select-field>
+                    <p>3. Which rock tastes the best?</p>
+                    <label><input type="radio" name="question3" value="a"> A) Granite</label><br>
+                    <label><input type="radio" name="question3" value="b"> B) Obsidian</label><br>
+                    <label><input type="radio" name="question3" value="c"> C) Marble</label><br> <!--  -->
+                </div>
+                <div class = select-field>
+                    <p>4. This rock is so common, even the Moon is like "same here bro."</p>
+                    <label><input type="radio" name="question4" value="a"> A) Schist</label><br>
+                    <label><input type="radio" name="question4" value="b"> B) Basalt</label><br> <!--  -->
+                    <label><input type="radio" name="question4" value="c"> C) Limestone</label><br>
+                </div>
+                <div class = select-field>
+                    <p>5. This rock is basically Earth's ancient lasagna — layered and intense.</p>
+                    <label><input type="radio" name="question5" value="a"> A) Gneiss</label><br> <!--  -->
+                    <label><input type="radio" name="question5" value="b"> B) Quartzite</label><br>
+                    <label><input type="radio" name="question5" value="c"> C) Sandstone</label><br>
+                </div>
+                <div class="text-field">
+                    <label for="comments">Give examples of rocks</label><br>
+                    <textarea id="comments" name="comments" rows="4" cols="50"></textarea>
+                </div>
+            </fieldset>
+            <button onclick="redirectWithQuizInfo();">Submit</button>
+        </form>
+    </section>
+</main>
+<footer id="footer"></footer>
+</body>
+
+</html>

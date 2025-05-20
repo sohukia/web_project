@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kaillou - Home</title>
+    <link rel="stylesheet" href="styles/styles.css">
+    <link rel="stylesheet" href="styles/footer.css">
+    <link rel="stylesheet" href="styles/header.css">
+
+    
+    <!-- Font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Rationale&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    
+    <!-- Loader scripts -->
+    <script src="scripts/headerFooterLoader.js"></script>
+    
+</head>
+<body>
+    <header id="header"></header>
+    <div class="ranking-list">
+        <!-- Granite -->
+        <a href="https://en.wikipedia.org/wiki/Granite" class="tile-link">
+            <img class="tile-img" src="https://monumento.blob.core.windows.net/reference-image/B245_1_GRANIT_MAS.jpg" alt="Granite">
+            <div class="tile-content">
+                <h5 class="tile-title">Granite</h5>
+                <p class="tile-desc">Granite is a coarse-grained igneous rock composed mainly of quartz, feldspar, and mica. Known for its strength and durability, it is widely used in construction, especially for countertops, flooring, and monuments. Its speckled appearance comes from the minerals embedded in it, and it often has shades of gray, pink, or white.</p>
+            </div>
+        </a>
+        <!-- Marble -->
+        <a href="https://en.wikipedia.org/wiki/Marble" class="tile-link">
+            <img class="tile-img" src="data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wCEAAkGBxITEhUSEhIVFRUXFRcYFRUVFRUVFRUVFRYXFxUVFhUYHSggGBolGxUVITEhJSkrLi4uFx8zODMtNygtLisBCgoKDg0OFxAQFS0dHR0tLS0tKy0rLSsrLS0rLSstLS0tLS0tKystLTctLS03LS0tNzctKzc3LTc3NzctLS0rLf/AABEIARMAtwMBIgACEQEDEQH/xAAbAAABBQEBAAAAAAAAAAAAAAACAAEEBQYDB//EAEYQAAIBAgQCBggDBAkCBwEAAAECAAMRBBIhMQVBIlFhcYGRBhMyobHB0fBCcuFSU4KSFBUjM0NiorLxVGMkNERzk8LSB//EABgBAQEBAQEAAAAAAAAAAAAAAAABAgME/8QAIBEBAQEAAgMBAQADAAAAAAAAAAERAhIhMVFBYSIyQv/aAAwDAQACEQMRAD8A8/AitCtFacHYNorQrRGEcyNYZipjX75x6inl9IUCiORAuRvp3/US44Bwb+kMDUf1VG5X1uhzMLEolzq1mB577GEViiApmvx9bB4Mj/w9DEUmKgZzUavky3aobgKAWFgANjfbSdMV6WYemaif0TBsjFXpCnTGWohFxnNz09W6ra6S5BjhY7GPaXGM4xTxXrLk0mAVqVMpTYMy3BUVlpoQMt7Kb621tKi0Ka0QEKMZALjbv+MdYVQaH72nO9v+YBQnW4gAk7a+4eZnWmDbWQck+/nOloJFifPz3nQCUDaPaFaK0gG0aHaKABWNlkhknMrKgLQWnS0AiFOi6Rg4/WdGnJUkBg9Xukr0jxSUlwiqaZairXKAh1qOwYltLZ1OzXOx7JDy8/vzkSqFOcVGclm1YWJ1sb27b2l0xJWtWxBFMXe5uCTcISbs6g+wSd+sC0lNghh0da+F1ZluzqQLcsjqwsT12YfCWHAsN6tA6nUjQ8yO0cth5zX4YjEUstWklcrcqKgBOnSyqBqTp7IOvZvEmrfDzqlgqdOorgXpVEawcBnXMvRYAFRvqGHIbRgJe+leKo13pVKVN0y02p2qIE9hzbKoJtbMVsdRYSltCBjEQ7RiICtcRLSA2A+cJNpysbm5vqecg6FhzMStraxjBYgtoCqDY/esdZ0ZNCJzQQCtFaFaEBAACKdAsUquhSAySa9Dq+/GcGSVjUVljJTkgpCVNJFQ6q/fd9iCokiquv33wckDkRF6rO1NBcAMAQXGobfKLdevXvDZZ3wFG9RD1Fj/AKTYyLEnG4V6LW6WTQq262PI9Rk/hWLp2K1qbNcWVqeQuh5MoqArfw7JcU+nRW9rbHNtM/XwbmoVpLkuDsej0VJIU8rm3nNehCxpDVAinor0VLaWuxZi3Vqx26pb4v0RdKYqivSdTs639Vfkpqn2D+cKO2UmEy3DEXUbjs57bTc+iNenTBp06b0yb3WpVNUVBYbFtNiboR56xJpfDAMpBIIsRoQdweYjETZ+mPowqKcThx0d6qA3CjbOl9cvWOW+15jyszZgFBAYa+R+U7Ux8o1VdfD4QBAiyzoFj5ZAlE55dT3/ABnemIzpqJYBCwrR1EIDq+/GUCBHnQU+uKBJo4mm+gNj+y2h/WdHpwcRgr72b82/g4187yNkdNnIHVU6SeDjbxtKw6NR6tPhF6vSFRrsSFamRfZgQyHS+/hJBSBWMup7z9IssntT+zNP6Pej1HIKtdA5bVUJIQLyzKD0id9dIzV1j8Fw+pWbLSQuedtl/Mx0Xxmy4D6HOnSqEFyLBV1VQdyW5nu+c1lHDJkyKiqn7KjIO8BbSdQAAsJqcTszOJ9FnZKlMHKC6srdlrOtvLzk7DejKIqqpHRWwJHSLG92JmgL2F8rNpsup8pHpYi4vlK95sfLlN9Yz2eQemNNsNXZGUerzXplNFVDqEsBZbEnskYYyoiIyrlSoM9MlSMwvYsp7xy/Wb30rwyODmUG45gGRfR6khwwoMiOig5VqKHUfs2B26ric+uVvfCj4Z6U2DLiNaZUq3aCLEADr1EoMTQCnolihF0LCzFb26Q/aBBB7ROvpfwb1FRWy2WquYKDfIwsHS531II7+ydeFVFr0fVX/t0uV/zgDYd+niBJYISLFUTadaaHwhPTvMq4KNI9p2FLtPwhCmOrz1jBxp7w3p3ncLCywiOtLx++qdAkjnEsfZTKP2nNvJecb1LN7RZuz2V8uflLoJsSg0F2PUuvv2inSnh7dnYvR9+584oF21OcXpyeyTk6TeMahpS28fv3wMXSBUqdjp4X1k4Jr4D5n6TliE2+/veQ1U4XCHOozOqlhcXDra/bYjTsnoFWswplkXMQpsOuwvYTHNTP4RrpYeM2/B0ZEGfe2o3t1iOMXVdwj0nFUBiMvUL6+U0GD4qlRQyOGU7EXtpodeeoM8bxeIKYytSTQCoxS3UxJy275tfRrDVnALkADZb3P6TUv4WeNb+lihzMg4vFKtRhtmsRcnW4E64VaSjpWv4mNWxiMbGmTbmVHuvynRhm+OY5cpHVMx/XvqKbvckDVRppoOiLdtzr1zacYCONl7rWMyHE+HUqlGrTKbrcHmpWzAjynPnHTjVVjON/0vDAVNKikOvUbizrfusR+UTP06jIwdDlZTcHt+ktm4fksVGml1AtbrtKusmswrV1q1Ksor07KWt62mPwufxDsJ9/fI1TQE2JsL2G57pTcBVjVGVgNDdT+MdnbNA66HuiiuOKblTt2uwWL1jn8Sj8ilvftO4wvTzXJFvZ5A9ffJGWTDUAYe/tZz2s1tRtZRJ4EWWdKa6e7ylkTUUJ7jDCzqU1P3yELLGI5BYp2CxprBetTnI05PZYBQTVYQxT37/gAPlOFdPh8f8AiWIp/E+83+cj1aev3985BywFlqAkXsDbvtpNMH6BPZ8pQYTDMz2UX6JPwAj4ziBFIixvqP4trecs8KyGMwWXEDE6kO7Bv8upCHusJpU4nToqGz5gdLX1BnI4cFch2II9xF4eA9FazpcCnqLnNe/hpMzfxr8XPD+JgKCBqdd7+V5KxPFKjFbITfflaHwLguRQWGZu3Ydw+ctRSuxUKFI6xa/d1zrGKyXGOIso9i/ft3SnfHs11KFbix69dNR1TUcfw7AWCg30695ikoVVrBHzWFzr1Ade55TPKLKk5JV8S4VcZqY15r9PpLzJGyTm1rH4bh7+tVSjrqCTYjKAbk5uX6zWsnzjss7ZdYNQlX4Qsk6Iug7oeWMTUcpOlNfj+vzh5YSL8vhLhriya+H1+scLO7U9R3H5fSOKcuJa4hYpICxS4mnwwxFr0a6YhOokMf5lsw8QZ0HF8ptVo1EPWvTHkLN7phlXKbqSrdYJBHwMs8Px/FJoagqL+zVUMPPQ++cu7peLY4fG0amiVFJ6r2b+U6zsyTJHjtF9K+F8abA/6X0krDYzCn+7xNSj/lfOAPivlNd2era8AYXbTpAj4Aj4yPx/hyXWoL6vmI0tmsbW8dYvR1+jctnvfpi3Stpm0FtbTvx2uRSFlzHMOiDY9s6fiKmhRUstzYc+6auhUTISp5aW8pksB/bEgo6Zbe1l1JvsVPZDxXDayXqI90CksqlrkczY8x1CJRdioVOh05TpXxn4gqhiACwADEC9gWtcgXMyacaNt7x142CdTLsTGizM7LfYGVXGKOoOm/x/4hHiwVb3AA1J7BvOOP4glQJlvqy2vYc+q95LVxE9WY3qjJBXu8xObOo3ZR/EPrMnlxaj3Q8sFsXSG9VP5xB/p9Lk9/yhm+AjweTilH9WJybHpyWof4cv+8iIYio3sUT/ABN/+QY2Hl2yxwsjVRXGrPTpDrNvi5+UgV8RQ/xMSz9iZiP9NhJpizr10T2nVewnXy3kY8RB0po7nuyj36nylZ/WlBf7rDk9rkKPJb++cavGK7aKwpjqpqAfM3MndqcVvUFci7ulEeAP8za+6KZhxmN2JY9ZJJime7XV6FUwlKqNVVu6xlfW9GqJ9nMvcdPIyzqUr+1TB7VIPxymCbDaoy/m2/1j5zpkc9rPVvRZx7FRT+YEe8SFV4BXH4AfykH6TZj1lr9Fh16r7xcRvWHmh8CG+YmekXvS9Diy01UqRbTUbEbgyr9OOJurpTpuUIuzFTY9Sj4+Un8P44oqPTVbkOQToCGG/R35SZjMMrEuU6LG+oBsT+EnlrNXzPBvlC9FK1RqWaq5ZiSQTa+W9ht3HzmlosDa+2uvP9Zk+H4uzOtrAEqANgFJFvKX+Er8vP5TfFmsXx2guHxB9YCVPSVQdN91NrMvYbWNwb8wxXHQ6j1tGogbpUmfMegbBfU3UdC/LUajbS+m9LMPSq0M1U2FJ1fMNWtcB1H5l08uqUuF4hTxjDD1GyerqhcIVBLGlcs2a+itlyKO1TOfKZfbcrp6N8BqVHDVl6As3q2Op6sy8l525zRcTwNIU3/s12N7AC4HKXXDaCUkCooA17SesljqT2mReM08yNbqPvE6dcjG+Xmi8Uw24wr+Jp/IQhxeiNsKfFwPgJNX0bWw6Z8hCHo6n7beQnDOTpvFX/16B7OGUd9RvkJzfj1XlSojvDN8TLYej9P9pvd9Ia8Do9TH+L6S9eRvFRHjWJ5Oq/kpqPfYyPVxtZvarVD/ABW9wtNUnCKI/wAPzuZ0GHpL+FB5R1v1O0YtcLmN8pY9diTJdLhdQ7IR36TVisnI+QJ+ERqHkjHvsPiY6Re7PU+A1D7RA98l0uBIPaJMtbOeSjzb6Cciw2NQnsT6KCZqcYz2rmmBpINgB22EUNUH4aZJ62sPebt7opcTVyrA6gg9xvHvK9+C0t1zIf8AKdPdY++dMPhXQi9Z2H7Jtb3i/vlRINFd8oB6wLHzEXqupmHjf/cDOjSu/rFh7dFx2ixHvtAy3pYhp4oP+8QNewF2U5TtzFlmo4Fx8vTYOC1kJZQAxYKLsCo52GnXKz0jyYmkFQ2dWzKGBW4IIYZrWHI+EpvRriRoYqmGJpoxyVADbpKLgt98zMeq3JsaoooZmUdBwKidisNu3UGS8DidZQvizSvh6pZStV0odBslWmSWDI1rexluL7gSfga03xrNdvS3Wi68nUg94mM//nqE1s7sTkLAXPMm1/L4zWcdrE0yOqZThNE0Crcqq+sU97MpHgVB7mEcvaz09Zw+Kk7RhMlwnHZhNDhKuk2wz+MXI5X1gGugsu3LecM3/c8gv0lrxC+fvEikzCon8b+X0WMQP+4f5x8hJRHZFaBENMfu2P5ivzaOtMjZEHjr7lkhmA3IHeQJwfGUhvUXzB+EB7P1qP4Sfn8o3qut28Mqj3C/vnJ+JUhzJ7lP0jUsdmYBUa37RsAPfeB0OHXmL/mu3xvD7PdDeQGoVje9Ww/yi3y+cIl2ikL+q1Ptszd5+t4o8/GvH1fwW3H397R4juPvkZUJtowjttGhAvTB3APeAfjKXjno6lazIRTqDmBo1ts1tiLaEdcuxHEmLLjA8R4XjKSB6tbOi1ASoqVGsxzAGzaHnrvqJJwWNtvNRxLC+to1aY3I6P5l6S+8Dznn1Oob2G8z6bl1sqq+so1Dzym3faRq3Ay2Hp5WJdKalVOxuoLKNdL/ABE48NxGVGB6po8K10S22Rf9omvbPpnvRrG9LKefy5Tb0NBMdxrBerqDEJsWHrByDHZu48+3vmj4Ziw6jWXinIPF6Ra1mK67jfY6Sv8A6A3Os/mfrLXiFG2Ug8xI94sSIB4YOdSof4j9ZMorZQOqFaJNvvrkVGr4RHa7KCRzMdcIg2QTvzjGEc1pqNgB3AR2+YhQWEodoIEMwRt99QgDaKKPKqZG5/fUPrHEbn5/KQE0G8dooQrxAxiIhAal8/kJjadFf6XWXLf+1e2mwzHy3mxpbffUJhOOuVxFYKxH9qTceB185mtcV5x+jkp+sC2Gga3bsTLjAf3VO37tP9omDbiTlcrMWBBFidD39cvuHekairTwpXQKlP1ob/Fyi4y29nN0b33HVGmNDicOKiMjbMCL9V9iO42MyHCuLNh6mSroFYhu9dDNkRMj6XcPKv64DoPYP/lcCwPcwA8R2xfsJ8adfSGjVFl16uRnUWPb+mh+E82psUN1M3nBsX6ymGFv15yy6XjicIybefxjiCm3nCFz8IjEd/CMYCMFto94zc5UPAEKCPvzMBoo0eVUwRuZ++ZiEZdz99cgJvnFeMTtGkQV4gYN4rwHo7eMwnFafrK1Qjc1H9zED4TdUT8T8ZhazZa9RTyqv/uJ+BkrXFxThL/i0lbgsJ6ytTosT06oVjzsW6RHba82RcFQd+jKGghGMolACfWoddrfjPgoJ8JLGtb42gVaKuCjC6sLEHthxAzTLzEG2h3Gh7wbH4TVejGKHq8nUTKLjGHyYiqv+ckdz9If7ofDK+R7XsDMS+W75jd03uARGp7eJkfhtTMp7D8f1Bkmnt4mbczHfw+saEd/D6xjAEwTCMGA4gDn984Q2HdBHP76pQJiivFKJixkPy+Ea8SH4/SZBHcRQb6+ERMAouR7vlBER2PdAdNvP4zGel1DJXDjaoAf4lsp/wDqfGbJNvvrMpvSzCZ6DNzpdPuFrP7rHwkvpZ7V3C6t6ZHVIPDqn/jaWaw6RGuntKwX3mLglQ6jskXiY6eYb25b3F7W7b2md8NWeXoZjznRZiqlxZsqlh1MQMw87zoZplm/S7AXy11Gwy1LchfosezW3lM0GsQZ6SQCCCAQRYg7EHQgzzrGYf1dR6Z/AxHePwnytMVuNP6NYm5Knqv/ACn9Zd0+feflMt6NMRUTtzD/AEn6TUpz7/pNMk28EmO24gyoYxrxExpUJdoB3P3yH0hLB5/fUYA2ijxpVSrxKfifiYyn78Yk2EiCvr4RrxuZiMBwYmOhjRjt99cAa2IWnTNRjZVUsfDX9PGefcSqO2aqjsGe+cgkXzCxB7LXHdPQ02HdMhx3B06VawFkqKSF1srjQ9y6g275nk1xV3o9Wuy+R75PxCAV6eYaZ006wHW/ulXwpLVWA2uCPG4Pwmk4lTIAcDW3jYixt98pIt9tO28aV/AqjGggYkst1JO5ynQnwIk+8qCAmW9L8HZlrDZrI35gOifEXH8ImnkTjNINQqA/s3HevSB90laUfAlsyNyDfG4+c0y8++UXC0GQ2Pj9Jc0XuCe3Xv5y54Z/RNv99kYxmOojMZYEY0RMGVCHzgnf77frHBgtuPvmIQzGKNeKVUgnSOuw7pyc6ffUZ0BkDg7xi0EH4xXgEImOkG8FjpA6odB3Sg4+meqo/ZQn+Y/QS+Xbw+Uq6tEl3Yi2YixO2Xa57OuSii4fhf7c01Fyyg3/AGQrXufOaLi+FZaJ11BNjtpbbvk/h/CqdO73zFhqdgABfQdQvfXrnPjtdKlBzTOaykgA6nTYD4SzjkS3aqPR7GXaxPtjyYaj3XHhL68yHBcFWVFzqVfTbXUbGaZMUDuCDzFjM5WtSrwagupH+VvgZwOKXt/lb6QhiBuL/wArfSTFlUvojWUAA63A/SaJ6QBOUWub6dZ5zE4iqlCsAvrMjHTNSdVW9uhnO+u203OFrAqOudOE2ZWOV86judoxMbF1l36mANuskDUct4zGZsxqXTkwLx7wTAcc4Dnbx+Rjj6QX+/IyoTNFBMeAbnT77J0vOLcu/wCf6Q7wCU6RQAYrwCvBqHT76jFeDVOkCLxzEulK6KSSwHcNTrpsbW8ZyXjJC9HpsRtsovyJNyZKq1mFWlkfL7WYX0YdEG/vh4ukouzlcpNyeY6yLf8AEIqHrMRmFlBHsrtrvo15X4q9KxQBWJvdVXQ91pcIaQFvWAWv7QINr6QkwC1VurhtT1/SYsaliBguOVtTUJZQLkgKG7OzUkSYnpBT5pV0/wDb+s6LwXQrcb38vs+cB+CaHa/Ka/yTYl0uII7BRTa5tYlgBrqNjJFWvQT26iL2esYk+AlPU4diMmXKMt9LC7DexuOQMrMRwx13Rm7hf3xeVhkaZuJ4WorIXR1OhzdBNeWYjU915UviaVO9N6y1aDAdLXOhG2aw6wCGXmdhITcJKqASPDt3P3ytIOJw1gbkR3vwyfVpgeIh3FNahq3v6tyLVCqEHLUH4bG/S2NrjqmmYzIejOHC1mY2/u7A3/aYX+E1hk3VwoMRMEygr6+EBvmIufhGc6ffXBhExQSY0DoW2++uFeYr0X47lprTK6A2PXY6G3cZe8U4sUqihTF3yhi1swAYkKFFxcmxOuwtGreF3wuAYpxwtXOiuOY/QztkMM5hQahIGhseRG4Mh8aqMiLlzXZwvRIDWsWYKToDZd+0weDszqSQwTMpp+sYM2UjXW9yO/XUw11ua6pVx378a9n6QlxGPv8A+Y07j7pcv6r94vz7Y2elbR1vNdf6xv8AFJ/Ssf8Avzv236xOor8Q54j4y2pNSH+IpO5/SF62l+8Xzlw2/FQcTj/+oPvhDEY//qPjLT1lH94tos9H94vvjP6m34p3xeOH/qNffHGKx/OuPL9JZ+so/vF9/wBJwTimFZgoxNK9+TbnqEdf6dr8Qxi8f++Xy/SMcTjzvVU96j6S5Ap/tr5xZKf7wS9f6dr8UTV8aP8AES35Vvbn+GTmPbJ1WnTt7S7GVtthfXqv2THKY1xuigmOUMbKZloPVGqHQyPxXGrQpmq98q8gLkkmwA8TOHDeI+uDA03psADle2qtexUjcaSiaTHgj790Ug8w4E3T7953x2OqGq12JylVW9iQoUWHdqYopHo4fiDW43iQSq1nVRsFOUDuAkrhWOrVM+etVNlJH9o45dhiim76cb7qf6LVmqGuaju+WmcuZma1yQSATvbS8HCuSDfrPuNhFFMVv/l3UxRRTIeMRFFKGMFtPKKKQV/FXNlAJ1uT26SotcEmKKd+Hpx5+19weoTS1JNmI8NJMLHrPnFFOXL26FnN9z5mV3F8S6qpV2U5twxB2PMGKKWLfStHGcSNsRV/+R/rDHpDix/6ip/MYopuOfJKwPGcRWdaVWqzobkq1iCQpI5dcsuJ4lsO6GgchZOlYDW9m2PbFFM326cf9KWE9IcTb+9/0p9IoopWH//Z" alt="Marble">
+            <div class="tile-content">
+                <h5 class="tile-title">Marble</h5>
+                <p class="tile-desc">Marble is a metamorphic rock formed from limestone under extreme heat and pressure. It is prized for its smooth surface and luxurious appearance, making it a favorite material for sculptures and building interiors. It comes in various colors, often with characteristic veining.</p>
+            </div>
+        </a>
+        <!-- Sandstone -->
+        <a href="https://en.wikipedia.org/wiki/Sandstone" class="tile-link">
+            <img class="tile-img" src="https://www.snroc.fr/visuels/1412340141_Cit-_de_la_Musique_et_de_la_Danse_zoom.jpg" alt="Sandstone">
+            <div class="tile-content">
+                <h5 class="tile-title">Sandstone</h5>
+                <p class="tile-desc">Sandstone is a sedimentary rock composed of sand-sized minerals or rock grains. It is commonly used in building and paving due to its ease of cutting and aesthetic appeal. Its colors range from red to yellow to white, depending on the mineral content.</p>
+            </div>
+        </a>
+        <!-- Limestone -->
+        <a href="https://en.wikipedia.org/wiki/Limestone" class="tile-link">
+            <img class="tile-img" src="https://res.cloudinary.com/void-elsan/image/upload/f_auto/q_90/v1/inline-images/calculs%20r%C3%A9naux%20%281%29_0.jpg?_a=BAAAV6Bs" alt="Limestone">
+            <div class="tile-content">
+                <h5 class="tile-title">Limestone</h5>
+                <p class="tile-desc">Limestone is a sedimentary rock composed mainly of skeletal fragments of marine organisms such as coral and mollusks. It is used widely in architecture and cement manufacturing. Notable structures like the Great Pyramids of Giza are made from limestone.</p>
+            </div>
+        </a>
+        <!-- Basalt -->
+        <a href="https://en.wikipedia.org/wiki/Basalt" class="tile-link">
+            <img class="tile-img" src="https://previews.123rf.com/images/photolike/photolike1707/photolike170700018/82087442-les-structures-polygonales-int%C3%A9ressantes-de-colonnes-de-basalte-%C3%A9galement-appel%C3%A9-herrnhausfelsen-mon.jpg" alt="Basalt">
+            <div class="tile-content">
+                <h5 class="tile-title">Basalt</h5>
+                <p class="tile-desc">Basalt is a dark-colored, fine-grained volcanic rock that is commonly found in oceanic crust and lava flows. It is used in construction (as crushed stone), road base, and as decorative stone in landscaping.</p>
+            </div>
+        </a>
+        <!-- Slate -->
+        <a href="https://en.wikipedia.org/wiki/Slate" class="tile-link">
+            <img class="tile-img" src="https://mamaisondeaaz.gedimat.fr/uploads/Article/7d/524_498_adobestock_74588607-toiture-en-ardoise.jpeg" alt="Slate">
+            <div class="tile-content">
+                <h5 class="tile-title">Slate</h5>
+                <p class="tile-desc">Slate is a fine-grained metamorphic rock that can be split into thin sheets. It is commonly used for roofing, flooring, and as chalkboards. Its natural waterproof properties make it ideal for outdoor applications.</p>
+            </div>
+        </a>
+        <!-- Quartzite -->
+        <a href="https://en.wikipedia.org/wiki/Quartzite" class="tile-link">
+            <img class="tile-img" src="https://bristolmarbleandgranite.com/wp-content/uploads/2023/10/Blu-Mare-Kitchen-Island-scaled.jpg" alt="Quartzite">
+            <div class="tile-content">
+                <h5 class="tile-title">Quartzite</h5>
+                <p class="tile-desc">Quartzite is a hard, non-foliated metamorphic rock originally formed from quartz sandstone. It is known for its high resistance to weathering and is often used as a decorative stone in architecture.</p>
+            </div>
+        </a>
+        <!-- Gneiss -->
+        <a href="https://en.wikipedia.org/wiki/Gneiss" class="tile-link">
+            <img class="tile-img" src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/80/Washington_Monument_2022.jpg/330px-Washington_Monument_2022.jpg" alt="Gneiss">
+            <div class="tile-content">
+                <h5 class="tile-title">Gneiss</h5>
+                <p class="tile-desc">Gneiss is a metamorphic rock with a characteristic banded appearance caused by the segregation of mineral types. It is often used in construction for its strength and attractive patterns.</p>
+            </div>
+        </a>
+        <!-- Travertine -->
+        <a href="https://en.wikipedia.org/wiki/Travertine" class="tile-link">
+            <img class="tile-img" src="https://www.travertin.fr/img/cms/carrelage-travertin-exterieur/carrelage-travertin-exterieur-terrasse-2.jpg" alt="Travertine">
+            <div class="tile-content">
+                <h5 class="tile-title">Travertine</h5>
+                <p class="tile-desc">Travertine is a type of limestone formed around mineral springs, particularly hot springs. Its porous texture and warm colors make it popular for flooring and wall cladding.</p>
+            </div>
+        </a>
+        <!-- Obsidian -->
+        <a href="https://en.wikipedia.org/wiki/Obsidian" class="tile-link">
+            <img class="tile-img" src="https://uploads-cdn.omnicalculator.com/images/nether-portal/v4/portal_lit.jpg?width=425&enlarge=0&format=jpeg" alt="Obsidian">
+            <div class="tile-content">
+                <h5 class="tile-title">Obsidian</h5>
+                <p class="tile-desc">Obsidian is a naturally occurring volcanic glass formed when lava cools rapidly. It is sharp and brittle, historically used for cutting tools and decorative objects.</p>
+            </div>
+        </a>
+    </div>
+    <footer id="footer"></footer>
+</body>
+</html>
