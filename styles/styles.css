@@ -60,7 +60,6 @@ a {
 }
 a:hover, a:focus {
     color: var(--accent-alt);
-    text-decoration: underline;
 }
 
 /* Main content */

@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Feed About Rock</title>
+    <link rel="stylesheet" href="styles/styles.css">
+    <link rel="stylesheet" href="styles/feed.css">
+    <link rel="stylesheet" href="styles/header.css">
+    <link rel="stylesheet" href="styles/footer.css">
+    <script src="scripts/headerFooterLoader.js"></script>
+</head>
+
+<body>
+    <div id="header"></div>
+    <div class="feed-container">
+        <div class="feed-header">
+            <h1>Rock Feed</h1>
+            <h2>Take a look at these Rock News</h2>
+            <p>Feed from Ultimate Classic Rock</p>
+        </div>
+        <div id="rock-feed"></div>
+        <div class="feed-controls">
+            <button id="load-more-btn">Load More</button>
+            <button id="load-less-btn">Load Less</button>
+        </div>
+        <div class="feed-pagination">
+            <span id="current-page">Page 1</span>
+            <span id="total-pages">of 10</span>
+        </div>
+        <p>You expected real rocks, don't you ?</p>
+    </div>
+    <footer id="footer"></footer>
+</body>
+
+<script src="scripts/rockFeed.js"></script>
+</html>
